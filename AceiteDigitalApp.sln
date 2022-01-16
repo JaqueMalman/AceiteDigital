@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{F533E648-0F41-448D-B2D9-0929933731F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{4ED266DD-284D-413E-9648-DA30BF9716FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{7F89AD3C-7D7D-4330-8010-64973FE36697}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{DF8540CF-D23C-4D8D-A804-72255AF8A123}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AceiteDigitalApp.Domain", "AceiteDigitalApp.Domain\AceiteDigitalApp.Domain.csproj", "{EC277DDE-C714-4E9C-AF6C-BD6A0F5737F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AceiteDigital.Data", "AceiteDigital.Data\AceiteDigital.Data.csproj", "{83AAAE37-F047-47FE-A719-E672FA4A54A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D5AEEB03-DFDC-4A23-85D4-8216EE6F2F15}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC277DDE-C714-4E9C-AF6C-BD6A0F5737F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC277DDE-C714-4E9C-AF6C-BD6A0F5737F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC277DDE-C714-4E9C-AF6C-BD6A0F5737F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC277DDE-C714-4E9C-AF6C-BD6A0F5737F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83AAAE37-F047-47FE-A719-E672FA4A54A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83AAAE37-F047-47FE-A719-E672FA4A54A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83AAAE37-F047-47FE-A719-E672FA4A54A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83AAAE37-F047-47FE-A719-E672FA4A54A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC277DDE-C714-4E9C-AF6C-BD6A0F5737F0} = {4ED266DD-284D-413E-9648-DA30BF9716FB}
+		{83AAAE37-F047-47FE-A719-E672FA4A54A5} = {DF8540CF-D23C-4D8D-A804-72255AF8A123}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8602D43-5CD9-4558-91D4-900FFA20D4C5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ec277dde-c714-4e9c-af6c-bd6a0f5737f0": {
+      "ProjectGuid": "ec277dde-c714-4e9c-af6c-bd6a0f5737f0",
+      "DisplayName": "AceiteDigitalApp.Domain",
+      "ColorIndex": 0
+    },
+    "83aaae37-f047-47fe-a719-e672fa4a54a5": {
+      "ProjectGuid": "83aaae37-f047-47fe-a719-e672fa4a54a5",
+      "DisplayName": "AceiteDigital.Data",
+      "ColorIndex": 1
+    },
+    "d5aeeb03-dfdc-4a23-85d4-8216ee6f2f15": {
+      "ProjectGuid": "d5aeeb03-dfdc-4a23-85d4-8216ee6f2f15",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
