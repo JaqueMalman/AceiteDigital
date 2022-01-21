@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6H2lhGQbwGcoxHkgoaLlL2f0jNA2GUBnqF8VUUVOa0vQqaK7btwN9HediSdwV9SyMrMy1c0f5rIpS3+EECsdFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Toco\\source\\repos\\AceiteDigitalApp\\AceiteDigital.WebApp\\AceiteDigital.WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Toco\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Toco\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Toco\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Toco\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Toco\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Toco\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

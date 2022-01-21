@@ -17,6 +17,8 @@ namespace AceiteDigitalApp.Domain.Entities
 
         public bool Assinado { get; private set; }
 
+        public DateTime DataHoraRegistro { get; private set; }
+
         public DocumentoSignatario DocumentoSignatario { get; private set; }
 
 
