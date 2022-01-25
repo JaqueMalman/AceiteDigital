@@ -15,7 +15,7 @@ namespace AceiteDigital.Data.Mapping
         {
             builder.HasKey(p => p.Id);
 
-            builder.Property("Assinatura");
+            builder.ToTable("Assinatura");
 
             builder.Property(p => p.Assinado)
                 .HasColumnName("Assinado");

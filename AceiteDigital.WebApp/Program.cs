@@ -1,3 +1,5 @@
+using AceiteDigital.Data.Context;
+using Microsoft.EntityFrameworkCore;
 using System;
 
 namespace AceiteDigitalWebApp
@@ -14,6 +16,14 @@ namespace AceiteDigitalWebApp
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            //adiciona o contexto para gerar migration
+            builder.Services.AddDbContext<ApplicationDbContext>(opt =>
+            {
+                opt.UseSqlServer(
+                                builder.Configuration.GetConnectionString("ApplicationDbContext"),
+                                b => b.MigrationsAssembly("AceiteDigital.Data"));
+            });
 
             var app = builder.Build();
 

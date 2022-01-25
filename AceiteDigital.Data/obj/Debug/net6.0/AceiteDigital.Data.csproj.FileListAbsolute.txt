@@ -1,0 +1,17 @@
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\bin\Debug\net6.0\AceiteDigital.Data.deps.json
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\bin\Debug\net6.0\AceiteDigital.Data.runtimeconfig.json
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\bin\Debug\net6.0\AceiteDigital.Data.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\bin\Debug\net6.0\ref\AceiteDigital.Data.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\bin\Debug\net6.0\AceiteDigital.Data.pdb
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\bin\Debug\net6.0\AceiteDigitalApp.Domain.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\bin\Debug\net6.0\AceiteDigitalApp.Domain.pdb
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\obj\Debug\net6.0\AceiteDigital.Data.csproj.AssemblyReference.cache
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\obj\Debug\net6.0\AceiteDigital.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\obj\Debug\net6.0\AceiteDigital.Data.AssemblyInfoInputs.cache
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\obj\Debug\net6.0\AceiteDigital.Data.AssemblyInfo.cs
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\obj\Debug\net6.0\AceiteDigital.Data.csproj.CoreCompileInputs.cache
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\obj\Debug\net6.0\AceiteDigital.Data.csproj.CopyComplete
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\obj\Debug\net6.0\AceiteDigital.Data.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\obj\Debug\net6.0\ref\AceiteDigital.Data.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\obj\Debug\net6.0\AceiteDigital.Data.pdb
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Data\obj\Debug\net6.0\AceiteDigital.Data.genruntimeconfig.cache
