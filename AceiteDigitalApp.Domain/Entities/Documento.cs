@@ -8,6 +8,13 @@ namespace AceiteDigitalApp.Domain.Entities
 {
     public class Documento : BaseEntity
     {
+        public Documento(string titulo, string descricao)
+        { 
+            Titulo = titulo;
+            Descricao = descricao;
+            DataCriacao = DateTime.Now;
+        }
+
         private Documento()
         { 
             //Necessário para entity framework

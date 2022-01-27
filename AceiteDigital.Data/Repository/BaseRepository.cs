@@ -1,41 +1,46 @@
 ﻿using AceiteDigital.Data.Context;
 using AceiteDigitalApp.Domain.Entities;
 using AceiteDigitalApp.Domain.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace AceiteDigital.Data.Repository
 {
-    public class BaseRepository<TEntity> : 
-        IBaseRepository<TEntity> where TEntity : BaseEntity
+    public class BaseRepository<T> :
+        IBaseRepository<T> where T : class
     {
-        protected readonly ApplicationDbContext _applicationDbContext;
+        private readonly ApplicationDbContext _applicationDbContext;
+
+        private readonly DbSet<T> _dbSet;
 
         public BaseRepository(ApplicationDbContext applicationDbContext)
-        {
+        { 
             _applicationDbContext = applicationDbContext;
+            _dbSet = applicationDbContext.Set<T>();
         }
 
-        public void Delete(long id)
+        public void Add<TEntity>(TEntity entity) where TEntity : T
         {
-            throw new NotImplementedException();
+            _dbSet.Add(entity);
         }
 
-        public void Insert(TEntity obj)
+        public void Delete<TEntity>(TEntity entity) where TEntity : T
         {
-            _applicationDbContext.Set<TEntity>().Add(obj);
-            _applicationDbContext.SaveChanges();
+            _dbSet.Remove(entity);
         }
 
-        public IList<TEntity> Select() =>
-            _applicationDbContext.Set<TEntity>().ToList();
-
-        public TEntity Select(long id)
+        public IQueryable<T> GetAll()
         {
-            throw new NotImplementedException();
+            return _dbSet;
         }
 
-        public void Update(TEntity obj)
+        public async Task<T> GetByIdAsync(long id)
         {
-            throw new NotImplementedException();
+            return await _dbSet.FindAsync(id).ConfigureAwait(false);
+        }
+
+        public void Update<TEntity>(TEntity entity) where TEntity : T
+        {
+            _dbSet.Update(entity);
         }
     }
 }

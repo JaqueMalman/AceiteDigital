@@ -1,4 +1,6 @@
 using AceiteDigital.Data.Context;
+using AceiteDigital.Data.Repository;
+using AceiteDigitalApp.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -24,6 +26,8 @@ namespace AceiteDigitalWebApp
                                 builder.Configuration.GetConnectionString("ApplicationDbContext"),
                                 b => b.MigrationsAssembly("AceiteDigital.Data"));
             });
+
+            builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 
             var app = builder.Build();
 

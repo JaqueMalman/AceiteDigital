@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace AceiteDigitalApp.Domain.Interfaces
 {
-    public interface IBaseRepository<TEntity> where TEntity : BaseEntity
+    public interface IBaseRepository<T> 
     {
-        void Insert(TEntity obj);
+        void Add<TEntity>(TEntity entity) where TEntity : T;
 
-        void Update(TEntity obj);
+        void Update<TEntity>(TEntity entity) where TEntity : T;
 
-        void Delete(long id);
+        void Delete<TEntity>(TEntity entity) where TEntity : T;
 
-        IList<TEntity> Select();
+        IQueryable<T> GetAll();
 
-        TEntity Select(long id);
+        Task<T> GetByIdAsync(long id);
     }
 }
