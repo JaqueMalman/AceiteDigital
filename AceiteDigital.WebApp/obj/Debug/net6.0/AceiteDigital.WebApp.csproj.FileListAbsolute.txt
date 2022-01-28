@@ -62,3 +62,8 @@ C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.WebApp\bin\Debug\net6.
 C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.WebApp\bin\Debug\net6.0\AceiteDigitalApp.Domain.pdb
 C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.WebApp\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.WebApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.WebApp\bin\Debug\net6.0\MediatR.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.WebApp\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.WebApp\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.WebApp\bin\Debug\net6.0\AceiteDigital.Application.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.WebApp\bin\Debug\net6.0\AceiteDigital.Application.pdb

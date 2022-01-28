@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6GQKaVOGPK47x+aGGzIlzkZA5j3O65WljISPoKh5vecCOkeoFb07F/O/+wY3CRuYUW1kwghom2es3SObquYPhA==",
+  "dgSpecHash": "GN6cOaGKutrjtynfVO+umdKBWy7bAM2fFRMEV+XAhe+UfxWC03qsrHb0bzLMrNo6SBuNBWrKvficQp5uXZWoXQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Toco\\source\\repos\\AceiteDigitalApp\\AceiteDigital.WebApp\\AceiteDigital.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Toco\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Toco\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Toco\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Toco\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\Toco\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Toco\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Toco\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

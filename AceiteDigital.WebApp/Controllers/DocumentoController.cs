@@ -1,47 +1,29 @@
-﻿using AceiteDigitalApp.Domain.Entities;
+﻿using AceiteDigital.Application.Documentos.Commands.CriarDocumento;
+using AceiteDigital.Application.Documentos.Queries;
+using AceiteDigitalApp.Domain.Entities;
 using AceiteDigitalApp.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AceiteDigital.WebApp.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class DocumentoController : ControllerBase
-    {
-        private IUnitOfWork _unitOfWork;
-
-        public DocumentoController(IUnitOfWork unitOfWork)
-        { 
-            _unitOfWork = unitOfWork;
-        }
+    public class DocumentoController : ApiController
+    {       
 
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> GetAsync(
+            [FromQuery] GetDocumentosQuery query)
         {
-            var repositoryDocumento =
-                _unitOfWork.GetRepository<Documento>();
+            var result = await Mediator.Send(query);
 
-            var documentos = repositoryDocumento.GetAll();
-            return Ok(documentos);
+            return Ok(result);
         }
 
         [HttpPost]
-        public async Task<IActionResult> PostAsync(
-            DocumentoDto documentoDto)
+        public async Task<IActionResult> PostAsync([FromBody] CriarDocumentoCommand command)
         {
-            var documentoInserir = new Documento(
-                documentoDto.Titulo,
-                documentoDto.Descricao);
+            var result = await Mediator.Send(command);
 
-            var repositoryDocumento =
-                _unitOfWork.GetRepository<Documento>();
-
-            repositoryDocumento.Add(documentoInserir);
-
-            await _unitOfWork.CommitAsync();
-
-            return Created($"id={documentoInserir.Id}", documentoInserir);
+            return Created($"id={result.Id}", result);
         }
-
     }
 }

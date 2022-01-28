@@ -1,0 +1,17 @@
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\bin\Debug\net6.0\AceiteDigital.Application.deps.json
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\bin\Debug\net6.0\AceiteDigital.Application.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\bin\Debug\net6.0\ref\AceiteDigital.Application.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\bin\Debug\net6.0\AceiteDigital.Application.pdb
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\bin\Debug\net6.0\AceiteDigital.Data.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\bin\Debug\net6.0\AceiteDigitalApp.Domain.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\bin\Debug\net6.0\AceiteDigital.Data.pdb
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\bin\Debug\net6.0\AceiteDigitalApp.Domain.pdb
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\obj\Debug\net6.0\AceiteDigital.Application.csproj.AssemblyReference.cache
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\obj\Debug\net6.0\AceiteDigital.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\obj\Debug\net6.0\AceiteDigital.Application.AssemblyInfoInputs.cache
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\obj\Debug\net6.0\AceiteDigital.Application.AssemblyInfo.cs
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\obj\Debug\net6.0\AceiteDigital.Application.csproj.CoreCompileInputs.cache
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\obj\Debug\net6.0\AceiteDigital.Application.csproj.CopyComplete
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\obj\Debug\net6.0\AceiteDigital.Application.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\obj\Debug\net6.0\ref\AceiteDigital.Application.dll
+C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigital.Application\obj\Debug\net6.0\AceiteDigital.Application.pdb

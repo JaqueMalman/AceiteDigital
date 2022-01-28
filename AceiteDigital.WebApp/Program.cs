@@ -1,8 +1,10 @@
 using AceiteDigital.Data.Context;
 using AceiteDigital.Data.Repository;
 using AceiteDigitalApp.Domain.Interfaces;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace AceiteDigitalWebApp
 {
@@ -28,6 +30,12 @@ namespace AceiteDigitalWebApp
             });
 
             builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+
+            var appAssemblie = typeof(
+                AceiteDigital.Application.Documentos.Commands.CriarDocumento.CriarDocumentoCommand).Assembly;
+
+            builder.Services.AddMediatR(appAssemblie);
+
 
             var app = builder.Build();
 

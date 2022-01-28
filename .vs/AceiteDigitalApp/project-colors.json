@@ -25,7 +25,12 @@
       "ProjectGuid": "011b6b74-2a1a-4320-afb8-2436f3459900",
       "DisplayName": "AceiteDigital.WebApp",
       "ColorIndex": 3
+    },
+    "e3399ffb-cdf0-4f52-b81e-3a44722a1f32": {
+      "ProjectGuid": "e3399ffb-cdf0-4f52-b81e-3a44722a1f32",
+      "DisplayName": "AceiteDigital.Application",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }
