@@ -1,13 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AceiteDigitalApp.Domain.Entities
+﻿namespace AceiteDigitalApp.Domain.Entities
 {
     public class DocumentoSignatario : BaseEntity
     {
+        public DocumentoSignatario(Signatario signatario, TipoSignatario tipoSignatario)
+        {
+            SignatarioId = signatario.Id;
+            Signatario = signatario;
+            TipoSignatario = tipoSignatario;
+        }
+
         private DocumentoSignatario()
         { 
             // utilizado pelo EF

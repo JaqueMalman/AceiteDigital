@@ -1,11 +1,6 @@
 ﻿using AceiteDigitalApp.Domain.Entities;
 using AceiteDigitalApp.Domain.Interfaces;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AceiteDigital.Application.Documentos.Commands.CriarDocumento
 {

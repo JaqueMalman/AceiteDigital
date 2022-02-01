@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AceiteDigitalApp.Domain.Entities
+﻿namespace AceiteDigitalApp.Domain.Entities
 {
     public class Documento : BaseEntity
     {
@@ -34,5 +28,11 @@ namespace AceiteDigitalApp.Domain.Entities
         public IReadOnlyCollection<DocumentoSignatario> DocumentosSignatarios =>
             _documentosSignatarios.AsReadOnly();
 
+        public void AdicionarSignatario(Signatario signatario, TipoSignatario tipoSignatario)
+        {
+            var documentoSignatario = new DocumentoSignatario(signatario, tipoSignatario);
+
+            _documentosSignatarios.Add(documentoSignatario);
+        }
     }
 }

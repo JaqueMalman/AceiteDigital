@@ -3,8 +3,6 @@ using AceiteDigital.Data.Repository;
 using AceiteDigitalApp.Domain.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using System;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace AceiteDigitalWebApp
 {
@@ -35,6 +33,11 @@ namespace AceiteDigitalWebApp
                 AceiteDigital.Application.Documentos.Commands.CriarDocumento.CriarDocumentoCommand).Assembly;
 
             builder.Services.AddMediatR(appAssemblie);
+
+            builder.Services.AddControllersWithViews()
+                .AddNewtonsoftJson(options =>
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+            );
 
 
             var app = builder.Build();

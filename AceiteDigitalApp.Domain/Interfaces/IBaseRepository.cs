@@ -1,9 +1,4 @@
-﻿using AceiteDigitalApp.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq.Expressions;
 
 namespace AceiteDigitalApp.Domain.Interfaces
 {
@@ -18,5 +13,7 @@ namespace AceiteDigitalApp.Domain.Interfaces
         IQueryable<T> GetAll();
 
         Task<T> GetByIdAsync(long id);
+
+        IQueryable<T> FindBy(Expression<Func<T, bool>> predicate);
     }
 }

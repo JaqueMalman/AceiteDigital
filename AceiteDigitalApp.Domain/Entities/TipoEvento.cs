@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AceiteDigitalApp.Domain.Entities
+﻿namespace AceiteDigitalApp.Domain.Entities
 {
     /// <summary>
     /// Operações realizadas no documento.

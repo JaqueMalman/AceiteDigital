@@ -6,10 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AceiteDigital.Application.Documentos.Queries
 {
-    public class GetDocumentosQuery : 
-        IRequest<List<Documento>>
+    public class GetDocumentosQuery : IRequest<List<Documento>>
     {
-
+        ///public string Titulo { get; set; }
     }
 
     public class GetDocumentosQueryHandler :
@@ -31,6 +30,7 @@ namespace AceiteDigital.Application.Documentos.Queries
 
             var documentos = await repositoryDocumento
                 .GetAll()
+            //    .Where(d => d.Titulo.Contains(request.Titulo))
                 .ToListAsync(cancellationToken);
 
             return documentos;            

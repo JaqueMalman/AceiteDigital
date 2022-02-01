@@ -1,7 +1,7 @@
 ﻿using AceiteDigital.Data.Context;
-using AceiteDigitalApp.Domain.Entities;
 using AceiteDigitalApp.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace AceiteDigital.Data.Repository
 {
@@ -41,6 +41,11 @@ namespace AceiteDigital.Data.Repository
         public void Update<TEntity>(TEntity entity) where TEntity : T
         {
             _dbSet.Update(entity);
+        }
+
+        public IQueryable<T> FindBy(Expression<Func<T, bool>> predicate)
+        {
+            return _dbSet.Where(predicate);
         }
     }
 }
