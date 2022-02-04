@@ -34,5 +34,29 @@
 
             _documentosSignatarios.Add(documentoSignatario);
         }
+
+        public void AssinarDocumento(Signatario signatario)
+        {
+            var documentoSignatario = _documentosSignatarios.Find(d => d.SignatarioId == signatario.Id);
+            if (documentoSignatario == null)
+            {
+                throw new Exception("Signatario não encontrado.");
+            }
+
+            documentoSignatario.Assinar();
+        }
+
+        public void RecusarAssinaturaDocumento(Signatario signatario)
+        {
+            var documentoSignatario = _documentosSignatarios.Find(d => d.SignatarioId == signatario.Id);
+            if (documentoSignatario == null)
+            {
+                throw new Exception("Signatario não encontrado.");
+            }
+
+            documentoSignatario.RecusarAssinatura();
+        }
+
+
     }
 }

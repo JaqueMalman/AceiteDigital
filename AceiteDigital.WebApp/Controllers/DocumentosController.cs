@@ -1,11 +1,13 @@
 ﻿using AceiteDigital.Application.Documentos.Commands.AdicionarSignatario;
+using AceiteDigital.Application.Documentos.Commands.AssinarDocumento;
 using AceiteDigital.Application.Documentos.Commands.CriarDocumento;
+using AceiteDigital.Application.Documentos.Commands.RecusarAssinaturaDocumento;
 using AceiteDigital.Application.Documentos.Queries;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AceiteDigital.WebApp.Controllers
 {
-    public class DocumentoController : ApiController
+    public class DocumentosController : ApiController
     {       
 
         [HttpGet]
@@ -38,10 +40,32 @@ namespace AceiteDigital.WebApp.Controllers
             [FromRoute] long documentoId,
             [FromBody] AdicionarSignatarioCommand command)
         {
-            if (documentoId != command.DocumentoId) return BadRequest();
+            if (documentoId != command.DocumentoId) return BadRequest();            
 
             var result = await Mediator.Send(command);
 
+            return Ok(result);
+        }
+
+        [HttpPut("{documentoId:long}/assinar")]
+        public async Task<IActionResult> PutAssinarAsync(
+            [FromRoute] long documentoId,
+            [FromBody] AssinarDocumentoCommand command)
+        {
+            if (documentoId != command.DocumentoId) return BadRequest();
+
+            var result = await Mediator.Send(command);
+            return Ok(result);
+        }
+
+        [HttpPut("{documentoId:long}/recusar-assintura")]
+        public async Task<IActionResult> PutRecusarAssinaturaAsync(
+            [FromRoute] long documentoId,
+            [FromBody] RecusarAssinaturaDocumentoCommand command)
+        {
+            if (documentoId != command.DocumentoId) return BadRequest();
+
+            var result = await Mediator.Send(command);
             return Ok(result);
         }
     }

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AceiteDigital.WebApp.Controllers
 {
-    public class SignatarioController : ApiController
+    public class SignatariosController : ApiController
     {
         [HttpGet]
         public async Task<IActionResult> GetAsync([FromQuery] GetSignatariosQuery query)

@@ -2,9 +2,9 @@
 {
     public class Assinatura : BaseEntity
     {
-        private Assinatura()
-        { 
-            //utilizado pelo EF
+        public Assinatura()
+        {
+            DataHoraRegistro = DateTime.Now;
         }
 
         public long DocumentoSignatarioId { get; private set; }
@@ -15,6 +15,14 @@
 
         public DocumentoSignatario DocumentoSignatario { get; private set; }
 
+        public void Assinar()
+        {
+            Assinado = true;
+        }
 
+        public void RecusarAssinatura()
+        {
+            Assinado = false;
+        }
     }
 }

@@ -2,7 +2,6 @@ C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigitalApp.Domain\bin\Debug\ne
 C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigitalApp.Domain\bin\Debug\net6.0\AceiteDigitalApp.Domain.dll
 C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigitalApp.Domain\bin\Debug\net6.0\ref\AceiteDigitalApp.Domain.dll
 C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigitalApp.Domain\bin\Debug\net6.0\AceiteDigitalApp.Domain.pdb
-C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigitalApp.Domain\obj\Debug\net6.0\AceiteDigitalApp.Domain.csproj.AssemblyReference.cache
 C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigitalApp.Domain\obj\Debug\net6.0\AceiteDigitalApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigitalApp.Domain\obj\Debug\net6.0\AceiteDigitalApp.Domain.AssemblyInfoInputs.cache
 C:\Users\Toco\source\repos\AceiteDigitalApp\AceiteDigitalApp.Domain\obj\Debug\net6.0\AceiteDigitalApp.Domain.AssemblyInfo.cs

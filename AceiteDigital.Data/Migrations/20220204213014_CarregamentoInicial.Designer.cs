@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AceiteDigital.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220121234150_CarregamentoInicial")]
+    [Migration("20220204213014_CarregamentoInicial")]
     partial class CarregamentoInicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
